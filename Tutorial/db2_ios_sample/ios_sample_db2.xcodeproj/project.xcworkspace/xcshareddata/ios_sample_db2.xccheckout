@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3426EFDE-2106-4E55-898E-74CFF047ADAD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ios_sample_db2</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2460C029E087B23C7381249D1C53660914B4AAEE</key>
+		<string>https://github.com/TonyZT132/db2_ios_sample_bluemix.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ios_sample_db2.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2460C029E087B23C7381249D1C53660914B4AAEE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/TonyZT132/db2_ios_sample_bluemix.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2460C029E087B23C7381249D1C53660914B4AAEE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2460C029E087B23C7381249D1C53660914B4AAEE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios_sample_db2</string>
+		</dict>
+	</array>
+</dict>
+</plist>
