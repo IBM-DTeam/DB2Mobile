@@ -1,0 +1,60 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/itemList"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/addText"
+        android:layout_marginBottom="15sp" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/addText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/progressBar"
+        android:layout_marginRight="15sp"
+        android:singleLine="true"
+        app:met_maxCharacters="20"
+        app:met_minCharacters="1"
+        app:met_baseColor="#000000"
+        app:met_primaryColor="#1E88E5"
+        app:met_errorColor="#ff3333"
+        app:met_helperText="Enter an item name" />
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:layout_marginBottom="15sp"
+        android:background="#1E88E5"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" />
+
+    <ProgressBar
+        android:layout_width="25sp"
+        android:layout_height="25sp"
+        android:layout_marginBottom="20sp"
+        style="?android:attr/progressBarStyleSmall"
+        android:id="@+id/progressBar"
+        android:visibility="gone"
+        android:layout_alignBottom="@+id/addText"
+        android:layout_toLeftOf="@+id/addButton"
+        android:layout_toStartOf="@+id/addButton" />
+
+
+</RelativeLayout>
