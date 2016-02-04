@@ -1,2 +1,4 @@
 # DB2Mobile
-Connect with your iOS or Android phone to DB2 using Bluemix as your web server
+
+Source Code for Video Tutorial [Build an iOS App with SQL Database on IBM Bluemix](https://www.youtube.com/watch?v=-T-FP9rEu9E)
+
